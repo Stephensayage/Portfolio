@@ -1,0 +1,37 @@
+.skills-title{
+  text-align: center;
+  margin-top: 5%;
+  font-family: 'Alata', sans-serif;
+  font-size: 32px;
+}
+.skills-ctn{
+  width: 90%;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
+  margin: 5% auto;
+  border-bottom: 4px solid rgb(50, 91, 160);
+}
+.icon-ctn{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: 0 auto;
+  padding: 15px;
+}
+.icon-img{
+  width: 64px;
+  height: 64px;
+  margin-bottom: 10%;
+  transition: transform 0.6s ease;
+}
+.icon-img:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.skill-name{
+  margin-top: 10%;
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+}
