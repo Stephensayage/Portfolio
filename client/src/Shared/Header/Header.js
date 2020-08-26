@@ -11,7 +11,7 @@ export default function Header() {
           <h6 href="/" className="my-name">Stephen Sayage</h6>
           <div className="social-icons-ctn">
             <Row>
-              <Col >
+              <Col className="github-ctn" >
                 <a href="https://www.linkedin.com/in/stephen-sayage/" target="_blank"><img src="https://image.flaticon.com/icons/svg/1384/1384014.svg" className="social-icon linkedin" /></a>
               </Col>
               <Col className="github-ctn">
