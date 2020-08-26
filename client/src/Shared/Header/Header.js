@@ -10,14 +10,14 @@ export default function Header() {
         <div className="title-ctn">
           <h6 href="/" className="my-name">Stephen Sayage</h6>
           <div className="social-icons-ctn">
-            <Row>
-              <Col className="github-ctn" >
-                <a href="https://www.linkedin.com/in/stephen-sayage/" target="_blank"><img src="https://image.flaticon.com/icons/svg/1384/1384014.svg" className="social-icon linkedin" /></a>
-              </Col>
-              <Col className="github-ctn">
-                <a href="https://github.com/Stephensayage" target="_blank"><img src="https://image.flaticon.com/icons/svg/733/733609.svg" className="social-icon github" /></a>
-              </Col>
-            </Row>
+
+            <div className="github-ctn" >
+              <a href="https://www.linkedin.com/in/stephen-sayage/" target="_blank"><img src="https://image.flaticon.com/icons/svg/1384/1384014.svg" className="social-icon linkedin" /></a>
+            </div>
+            <div className="github-ctn">
+              <a href="https://github.com/Stephensayage" target="_blank"><img src="https://image.flaticon.com/icons/svg/733/733609.svg" className="social-icon github" /></a>
+            </div>
+
           </div>
         </div>
         <Nav className="right-links">

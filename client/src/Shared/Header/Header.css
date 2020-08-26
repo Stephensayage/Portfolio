@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80px;
+  height: 100px;
   width: 100%;
   position: fixed;
   background-color: rgb(50, 91, 160);
@@ -23,8 +23,9 @@
   font-family: 'Oswald', sans-serif;
   margin-right: 15px;
 }
+
 .right-links{
-  width: 35%;
+  width: 50%;
   display: flex;
   justify-content: space-evenly;
   font-size: 16px;
@@ -42,7 +43,12 @@ html{
   color: rgb(0, 101, 252);
 }
 .social-icons-ctn{
+display: block;
 width: 25%;
+}
+.github-ctn{
+  width: 20%;
+  padding-top: 5px;
 }
 .row{
   display: flex;
