@@ -40,20 +40,20 @@ html{
   scroll-behavior: smooth;
 }
 .nav-link:hover{
-  color: rgb(0, 101, 252);
+  color: rgb(60, 138, 255);
 }
 .social-icons-ctn{
-display: block;
-width: 25%;
+display: flex;
+justify-content: center;
+width: auto;
+
 }
 .github-ctn{
-  width: 20%;
+  margin-right: 20px !important;
   padding-top: 5px;
+  width: 40%;
 }
-.row{
-  display: flex;
-  flex-flow: row nowrap;
-}
+
 .social-icon{
   width: 35px;
   height: 35px;

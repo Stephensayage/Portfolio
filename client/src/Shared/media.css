@@ -67,6 +67,10 @@
       height: 35px;
       padding-top: 1px;
     }
+    .social-icons-ctn{
+      display: inline;
+      width: 25%;
+      }
   
     /* About Me */
     .about-me-ctn{
