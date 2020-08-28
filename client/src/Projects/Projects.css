@@ -103,20 +103,19 @@
   width: 100%;
   padding: 20px 0 20px 0;
 }
-.link-icon-ctn{
-  width: 26px;
-  height: 35px;
-}
+
 .link-icon{
   width: 25px;
   height: 25px;
-  fill: rgb(50, 91, 160);
+  fill: rgb(0, 0, 0);
   margin-left: 25px;
  
 }
 
 .link-icon:hover,
 .link-icon:focus {
-  pointer-events: none;
+ 
   filter: invert(32%) sepia(37%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
 }
+
+
