@@ -24,7 +24,7 @@ export default function Header() {
           <Nav.Link href="#about" className="nav-link">About Me</Nav.Link>
           <a href="#projects" className="nav-link">Projects</a>
           <Nav.Link href="#contact" className="nav-link">Contact</Nav.Link>
-          <Nav.Link href="https://docdro.id/vBubycG" target="_blank" className="nav-link">Resume</Nav.Link>
+          <Nav.Link href="https://docdro.id/Gbc8PRz" target="_blank" className="nav-link">Resume</Nav.Link>
         </Nav>
       </nav>
 
