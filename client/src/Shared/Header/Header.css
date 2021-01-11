@@ -14,6 +14,7 @@
   flex-flow: row nowrap;
   align-items: center;
   width: 50%;
+  transition: all 1s;
 }
 .my-name {
   font-size: 2.5em;
@@ -41,7 +42,8 @@ html {
   scroll-behavior: smooth;
 }
 .nav-link:hover {
-  color: rgb(60, 138, 255);
+  border-bottom: 1px solid white;
+  color: white;
 }
 .social-icons-ctn {
   display: flex;
@@ -61,7 +63,7 @@ html {
     brightness(117%) contrast(104%);
 }
 .social-icon:hover {
-  animation: shake 0.5s;
+  animation: shake 0.8s;
   animation-iteration-count: infinite;
 }
 @keyframes shake {
