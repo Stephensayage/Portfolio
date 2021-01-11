@@ -287,8 +287,8 @@ export default function Projects() {
           </div>
           <p className="pro-content">
             Victor Vektor's is a Cyberpunk2077 themed website that I created to
-            practice my advanced css skills. Is it non function and for display
-            only.
+            practice my advanced css skills. Is it non functional and for
+            display only.
           </p>
           <div className="tech-div">
             <h2 className="tech">Tech Stack:</h2>
@@ -344,5 +344,4 @@ export default function Projects() {
   );
 }
 {
-  /* <img className="project-img" src="https://i.imgur.com/JM2DkNg.png" /> */
 }
