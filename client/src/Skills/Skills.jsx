@@ -1,6 +1,7 @@
 import React from "react";
 import "./Skills.css";
 import Sass from "../assets/sass.png";
+import Javascript from "../assets/javascript.png";
 
 export default function Skills() {
   return (
@@ -24,10 +25,7 @@ export default function Skills() {
         </div>
 
         <div className="icon-ctn">
-          <img
-            className="icon-img"
-            src="https://image.flaticon.com/icons/svg/919/919828.svg"
-          />
+          <img className="icon-img" src={Javascript} />
           <p className="skill-name">JavaScript</p>
         </div>
 
