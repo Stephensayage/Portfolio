@@ -2,6 +2,9 @@ import React from "react";
 import "./Skills.css";
 import Sass from "../assets/sass.png";
 import Javascript from "../assets/javascript.png";
+import HTMLIcon from "../assets/html-5.png";
+import CSSIcon from "../assets/css.png";
+import Github from "../assets/github (1).png";
 
 export default function Skills() {
   return (
@@ -9,18 +12,12 @@ export default function Skills() {
       <h2 className="skills-title">Skills & Tools</h2>
       <div className="skills-ctn">
         <div className="icon-ctn">
-          <img
-            className="icon-img"
-            src="https://image.flaticon.com/icons/svg/732/732212.svg"
-          />
+          <img className="icon-img" src={HTMLIcon} />
           <p className="skill-name">HTML</p>
         </div>
 
         <div className="icon-ctn">
-          <img
-            className="icon-img"
-            src="https://image.flaticon.com/icons/svg/732/732190.svg"
-          />
+          <img className="icon-img" src={CSSIcon} />
           <p className="skill-name">CSS</p>
         </div>
 
@@ -85,10 +82,7 @@ export default function Skills() {
         </div>
 
         <div className="icon-ctn">
-          <img
-            className="icon-img"
-            src="https://image.flaticon.com/icons/svg/919/919847.svg"
-          />
+          <img className="icon-img" src={Github} />
           <p className="skill-name">GitHub</p>
         </div>
 

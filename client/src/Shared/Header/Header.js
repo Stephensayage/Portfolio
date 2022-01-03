@@ -2,6 +2,8 @@ import React from "react";
 import { Navbar, Nav, Row, Col, Image } from "react-bootstrap";
 import "./Header.css";
 import "../media.css";
+import github from "../../assets/github (1).png";
+import linkedin from "../../assets/linkedin (2).png";
 
 export default function Header() {
   return (
@@ -17,18 +19,12 @@ export default function Header() {
                 href="https://www.linkedin.com/in/stephen-sayage/"
                 target="_blank"
               >
-                <img
-                  src="https://image.flaticon.com/icons/svg/1384/1384014.svg"
-                  className="social-icon linkedin"
-                />
+                <img src={linkedin} className="social-icon linkedin" />
               </a>
             </div>
             <div className="github-ctn left">
               <a href="https://github.com/Stephensayage" target="_blank">
-                <img
-                  src="https://image.flaticon.com/icons/svg/733/733609.svg"
-                  className="social-icon github"
-                />
+                <img src={github} className="social-icon github" />
               </a>
             </div>
           </div>
